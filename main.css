@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  background-color: aquamarine;
+}
+
+.todo-header {
+  display: flex;
+  background-color: black;
+  align-items: center;
+  justify-content: space-between;
+  height: 57px;
+  margin-bottom: 20px;
+  padding: 0 20px;
+}
+
+.right-section,
+.left-section{
+  flex: 1;
+  display: flex;
+}
+
+.center-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-section {
+  justify-content: flex-end;
+}
+.account-setting{
+  height: 36px;
+  width: 36px;
+  object-fit: cover;
+
+}
+
+.todo-input {
+  width: 300px;
+  padding: 10px 5px 10px 5px;
+  border-radius: 5px;
+  border: none;
+  margin-right: 5px;
+  border:3px solid rgb(231, 231, 82);
+}
+.add-btn{
+    background-color: rgb(231, 231, 82);
+    width: 36px;
+    height: 36px;
+    font-size: 30;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+.add-btn:active{
+  background-color: rgb(182, 182, 35);
+}
+
+.todolist{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.row{
+  margin-bottom: 15px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 8px 5px 8px 5px;
+  display: flex;
+  align-items: center;
+
+}
+
+.input-text{
+  width: 300px; 
+  height: 34px;
+  padding: 5px;
+  border: none;
+}
+
+.checkbox{
+  background-color: rgb(231, 231, 82);
+  width: 36px;
+  height: 30px;
+  margin-right: 5px;
+}

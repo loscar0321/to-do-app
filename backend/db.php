@@ -1,3 +1,4 @@
+<?php
 $database = 'to_do_app';
 $localhost = 'localhost';
 $username = 'root';
@@ -9,3 +10,4 @@ try {
 } catch (PDOException $e) {
     die("Connection failed: " . $e->getMessage());
 }
+?>

@@ -1,9 +1,7 @@
 <?php
 Header('Content-Type: application/json');
 require '../db.php';
-
 session_start();
-
 if (isset($_SESSION['']) && $_SESSION['']) {
     $userId = $_SESSION['user_id'];
 
